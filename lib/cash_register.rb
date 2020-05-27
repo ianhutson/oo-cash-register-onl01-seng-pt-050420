@@ -18,5 +18,9 @@ class CashRegister
     self.last_transaction = price * quantity
   end
   
+  def apply_discount(discount)
+    total *= discount
+    puts "success"
+    total
 
 end
