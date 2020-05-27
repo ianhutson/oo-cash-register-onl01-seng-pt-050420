@@ -15,6 +15,7 @@ class CashRegister
     quantity.times do
     items << total
     end
+    self.last_transaction = price * quantity
   end
   
 
