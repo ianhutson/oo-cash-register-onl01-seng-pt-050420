@@ -3,4 +3,8 @@ class CashRegister
     @total=total
     @discount=discount
   end
+  
+  def total
+    @total
+  end
 end
