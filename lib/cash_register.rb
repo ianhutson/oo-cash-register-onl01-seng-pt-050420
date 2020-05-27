@@ -19,9 +19,8 @@ class CashRegister
   end
   
   def apply_discount(discount)
-    total *= discount
-    puts "success"
-    total
+    if discount != 0
+      
   end
 
 end
