@@ -22,5 +22,6 @@ class CashRegister
     total *= discount
     puts "success"
     total
+  end
 
 end
