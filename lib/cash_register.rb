@@ -15,4 +15,5 @@ class CashRegister
     quantity.times do
     @@items << total
   end
+  end
 end
