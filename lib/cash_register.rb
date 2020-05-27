@@ -22,7 +22,7 @@ class CashRegister
     if discount = 0
       puts "There is no discount to apply."
     else
-      #stuff
+      self.total = (discount / 100).to_f
     end
   end
 
