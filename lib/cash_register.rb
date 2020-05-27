@@ -18,7 +18,7 @@ class CashRegister
     self.last_transaction = price * quantity
   end
   
-  def apply_discount(discount)
+  def apply_discount
     if discount = 0
       puts "no discount"
     else
